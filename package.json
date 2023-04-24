@@ -1,0 +1,17 @@
+{
+  "name": "mangodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.7",
+    "mangodb": "^1.0.0",
+    "mongodb": "^5.3.0",
+    "npm": "^9.6.5"
+  }
+}
