@@ -1,5 +1,6 @@
 const mongoClient = require('mongodb').MongoClient;
-const uri = "mongodb://localhost:27017/"
+//const uri = "mongodb://localhost:27017/"
+const uri="mongodb+srv://newton:HgMtlQUu4y7EJSwQ@cluster0.y9jfw0a.mongodb.net/augustNewton"
 const connect = new mongoClient(uri);
 const db = connect.db('augustNewton');
 const objectId = require('mongodb').ObjectId;
@@ -18,7 +19,7 @@ catch(error){
     console.log(error);
    }
 }
-//insert();
+insert();
 
 async function find(){
     try{
@@ -56,4 +57,4 @@ async function deleteItem(){
       console.log(error);
     }
 }
-deleteItem();
+//deleteItem();
